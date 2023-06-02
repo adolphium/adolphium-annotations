@@ -1,4 +1,4 @@
-Annotations. Working with Java 17+ 
+Annotations. Working with Java 17. (May workt with other versions, but it was not tested).
 
 ## @ValidPagebleSortParam
 The annotation `@ValidPagebleSortParam` can be used on Pageable objects,
