@@ -18,7 +18,7 @@ class CharSequenceValidatorTest {
     private final NoForbiddenCharSequences annotation = mock(NoForbiddenCharSequences.class);
     private final CharSequenceValidator validator = new CharSequenceValidator();
     private final static String[] defaultForbiddenStrings = new String[]{"%", "$", "&", "<", ">"};
-    private final static String[] customForbiddenStrings = new String[]{"a,lelelele,"};
+    private final static String[] customForbiddenStrings = new String[]{"a","lelelele","!"};
 
     static class TestObject {
         TestObject(String testString, Object testObject) {
