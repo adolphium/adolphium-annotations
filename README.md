@@ -10,7 +10,8 @@ By default, separate chars < > % $ & are forbidden, but this can be overwritten 
 e.g.  `@NoForbiddenCharSequences(field = {"a","bc","123"})`. The annotation can also be used with objects. If so, the 
 fields with the type String of the objects are validated.
 
-
+### @NullOrNotBlank
+Validates a String parameter or field. A String is valid, if it is null or not blank.
 ## todo
 - cleanup project
 - write a more readable README.md; add more annotations
