@@ -27,8 +27,8 @@ import it from your local maven repository as a dependency to your project:
 
 ```
 <dependencies>
-    //other dependencies
-    //...    
+    <!-- other dependencies -->
+    <!--  ...  -->
     <dependency>
         <groupId>xyz.adolphium</groupId>
         <artifactId>adolphium-annotations</artifactId>
