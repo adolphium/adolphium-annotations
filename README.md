@@ -1,4 +1,4 @@
-Annotations. Working with Java 17. (May workt with other versions, but it was not tested).
+Annotations. Working with Java 17. (May work with other versions, but it was not tested).
 
 ## Available annotations
 
